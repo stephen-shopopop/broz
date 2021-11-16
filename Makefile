@@ -73,6 +73,10 @@ tool:
 	$(GOVET) ./...; true
 	$(GOFMT) -w .
 
+jira:
+	webviewd --url=https://shopopop.atlassian.net/jira/your-work
+
+
 clean:
 	go clean -i .
 	rm -f $(BINARY_NAME)
