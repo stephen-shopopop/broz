@@ -18,7 +18,7 @@ var (
 	debug  = flag.Bool("debug", false, "Mode debug")
 	height = flag.Int("height", 600, "Webview height")
 	width  = flag.Int("width", 800, "Webview width")
-	url    = flag.String("url", "", "Naviagte to this url")
+	url    = flag.String("url", "", "Navigate to this url")
 	dir    = flag.String("dir", ".", "path to serve")
 )
 
