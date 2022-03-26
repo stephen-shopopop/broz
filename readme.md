@@ -2,34 +2,20 @@
 
 
 It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux and Edge on Windows 10.
+## Usage
 
-## USAGE
+### Install
 
-**GOLANG**
+Add .npmrc file in your env
 
-```
-webview [options]
-
-  --dir string
-        path to serve (default ".")
-  --url string
-        instead of serving files, load this url
-  --title string
-        title of the webview window (default "webview")
-  --width int
-        width of the webview window (default 800)
-  --height int
-        height of the webview window (default 600)
-```
-
-**Nodejs**
+> @stephen-shopopop:registry=https://npm.pkg.github.com
 
 ```
-npm install --global .
+npx @stephen-shopopop/broz
 ```
 
 ```
-webview [options]
+broz [options]
 
   --dir string
         path to serve (default ".")
@@ -52,3 +38,16 @@ An application icon can be specified by providing a .desktop file.
 ```linux
 sudo apt-get install libwebkit2gtk-4.0-dev
 ```
+
+## Contributing
+
+1. npm run lint - eslint test config
+2. npm run release - Release library && publish
+## Package maintenance
+
+A modern cli tool that keeps your deps fresh
+
+```bash
+npx taze
+```
+
