@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com///compare/v0.0.8...v0.0.11) (2022-03-26)
+
+
+### Features
+
+* **bundle:** add build darwin ([a321c52](https://github.com///commit/a321c52f7bf8409c2428dc9545d29e6fb6f43718))
+* **bundle:** bump versions ([9337ccb](https://github.com///commit/9337ccb5ebf419622e6720eebe6aca36151efbcf))
+* **darwin:** add darwin version for go/nodejs/deno ([8b2ee26](https://github.com///commit/8b2ee268b08daa06938ace1783b62e743c846553))
+* naming ([07925f7](https://github.com///commit/07925f7efe87cf5a2035784a8340db3429e1c6a1))
+
+
+### Bug Fixes
+
+* **bundle:** fix deno bundle ([c072a14](https://github.com///commit/c072a1409820c22bb87681eac3296e044d383f3f))
+* **darwin:** fix bundle darwin ([0611a9d](https://github.com///commit/0611a9d55703010c35cbe2cbf653abe8deff7576))
+
 ### [0.0.10](https://github.com/stephendltg/go-webview/compare/v0.0.9...v0.0.10) (2021-08-16)
 
 ### [0.0.9](https://github.com/stephendltg/go-webview/compare/v0.0.8...v0.0.9) (2021-08-16)
