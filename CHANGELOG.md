@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/stephen-shopopop/broz/compare/v0.0.18...v0.0.19) (2022-03-26)
+
+
+### Bug Fixes
+
+* **go:** default name ([45ae512](https://github.com/stephen-shopopop/broz/commit/45ae51276cc835c0a3c1e63ce5337e8ef04341dc))
+
 ### [0.0.18](https://github.com/stephen-shopopop/broz/compare/v0.0.17...v0.0.18) (2022-03-26)
 
 ### [0.0.17](https://github.com/stephen-shopopop/broz/compare/v0.0.16...v0.0.17) (2022-03-26)

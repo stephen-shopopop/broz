@@ -1,6 +1,6 @@
 {
   "name": "@stephen-shopopop/broz",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Webview",
   "engines": {
     "go": "1.16"
