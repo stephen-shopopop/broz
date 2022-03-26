@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stephen-shopopop.git"
+    "url": "git+https://github.com/stephen-shopopop/broz.git"
   },
   "bugs": {
-    "url": "https://github.com/stephen-shopopop/issues"
+    "url": "https://github.com/stephen-shopopop/broz/issues"
   },
   "contributors": [
     "stephen.deletang@shopopop.com"
