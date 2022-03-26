@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/stephen-shopopop/broz/compare/v0.0.16...v0.0.17) (2022-03-26)
+
+
+### Features
+
+* **main.go:** add automatic protocol ([359976d](https://github.com/stephen-shopopop/broz/commit/359976df9fabb5d10550edcd88a6cd5f34a05083))
+
+
+### Bug Fixes
+
+* package.json ([0d6d697](https://github.com/stephen-shopopop/broz/commit/0d6d6974be5ebf0987926e43896cc97400813e00))
+
 ### [0.0.16](https://github.com///compare/v0.0.15...v0.0.16) (2022-03-26)
 
 ### [0.0.15](https://github.com///compare/v0.0.14...v0.0.15) (2022-03-26)
