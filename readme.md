@@ -12,7 +12,7 @@ It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux and Edge on Windows 10.
 
 ### Install
 
-Add .npmrc file in your env
+Add .npmrc file in your env $HOME
 
 > @stephen-shopopop:registry=https://npm.pkg.github.com
 
