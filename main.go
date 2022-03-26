@@ -14,7 +14,7 @@ import (
 
 // Vars cli
 var (
-	title  = flag.String("title", "broz", "Webview title")
+	title  = flag.String("title", "default", "Webview title")
 	debug  = flag.Bool("debug", false, "Mode debug")
 	height = flag.Int("height", 600, "Webview height")
 	width  = flag.Int("width", 800, "Webview width")

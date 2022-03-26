@@ -8,7 +8,7 @@ GOGET=$(GOCMD) get
 GOVET=$(GOCMD) vet
 GOFMT=gofmt
 GOLINT=golint
-BINARY_NAME="webview"
+BINARY_NAME="broz"
 PKG_LINUX=bin/${BINARY_NAME}-linux
 VERSION := $(shell node -p "require('./package.json').version")
 DESCRIPTION := $(shell node -p "require('./package.json').description")
@@ -48,10 +48,10 @@ build-deb:
 	rmdir $(PKG_LINUX)
 
 build-linux:
-	GOOS=linux GOARCH=amd64 $(GOBUILD) -v -o bin/$(BINARY_NAME)-linux-amd64 .
+	GOOS=linux GOARCH=amd64 $(GOBUILD) -v -o bin/$(BINARY_NAME)-linux .
 
 build-darwin:
-	GOOS=darwin GOARCH=amd64 $(GOBUILD) -v -o bin/$(BINARY_NAME)-darwin-amd64 .
+	GOOS=darwin GOARCH=amd64 $(GOBUILD) -v -o bin/$(BINARY_NAME)-darwin .
 
 build-rasp:
 	GOOS=linux GOARCH=arm GOARM=5 $(GOBUILD) -v -o bin/$(BINARY_NAME)-rasp .

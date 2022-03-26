@@ -24,7 +24,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "start": "node cli.js",
+    "start": "node cli.js --url antfu.me",
     "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
     "fix": "standard-version -- --release-as minor",

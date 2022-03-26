@@ -3,12 +3,10 @@ const { execFileSync } = require('child_process')
 const path = require('path')
 
 let binaryPath
-if (process.platform === 'win32') {
-  binaryPath = path.join(__dirname, 'bin', 'webview-win32-amd64')
-} else if (process.platform === 'darwin') {
-  binaryPath = path.join(__dirname, 'bin', 'webview-darwin-amd64')
+if (process.platform === 'darwin') {
+  binaryPath = path.join(__dirname, 'bin', 'broz-darwin')
 } else if (process.platform === 'linux') {
-  binaryPath = path.join(__dirname, 'bin', 'webview-linux-amd64')
+  binaryPath = path.join(__dirname, 'bin', 'broz-linux')
 } else {
   throw new Error('Unsupported platform: ' + process.platform)
 }

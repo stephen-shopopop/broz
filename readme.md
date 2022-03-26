@@ -9,7 +9,7 @@
 
 a simple, frameless browser for screenshots
 
-It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux and Edge on Windows 10.
+It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux.
 
 Inspire by [antfu broz](https://github.com/antfu/broz)
 ## Usage
@@ -21,7 +21,7 @@ Add .npmrc file in your env $HOME
 > @stephen-shopopop:registry=https://npm.pkg.github.com
 
 ```
-npx @stephen-shopopop/broz --url antfu.me
+npx @stephen-shopopop/broz --url https://antfu.me
 ```
 
 ```
