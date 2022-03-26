@@ -1,0 +1,17 @@
+.vscode/
+src/
+tests/
+coverage/
+tsconfig.json
+.eslintignore
+.eslintrc.js
+jest.config.js
+commitlint.config.json
+Makefile
+static/
+go.mod
+go.sum
+main.go
+vendor/
+assets/
+.vscode/
