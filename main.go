@@ -113,6 +113,12 @@ func main() {
 		url := fmt.Sprintf("http://localhost:%d/", port)
 		runWebview(url, *title, *width, *height, *debug)
 	} else {
-		runWebview(*url, *title, *width, *height, *debug)
+		var uri string
+		if !strings.Contains(*url, "://") {
+			uri = "http://" + *url
+		} else {
+			uri = *url
+		}
+		runWebview(uri, *title, *width, *height, *debug)
 	}
 }

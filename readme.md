@@ -7,7 +7,11 @@
 
 # BROZ
 
+a simple, frameless browser for screenshots
+
 It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux and Edge on Windows 10.
+
+Inspire by [antfu broz](https://github.com/antfu/broz)
 ## Usage
 
 ### Install
@@ -17,7 +21,7 @@ Add .npmrc file in your env $HOME
 > @stephen-shopopop:registry=https://npm.pkg.github.com
 
 ```
-npx @stephen-shopopop/broz
+npx @stephen-shopopop/broz --url antfu.me
 ```
 
 ```
