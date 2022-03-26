@@ -20,6 +20,9 @@
   "contributors": [
     "stephen.deletang@shopopop.com"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "start": "node cli.js",
     "release": "standard-version",
