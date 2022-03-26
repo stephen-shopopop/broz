@@ -32,7 +32,7 @@
     "pre-commit": "npx commitlint --edit $1 & npm run lint"
   },
   "bin": {
-    "webview": "cli.js"
+    "broz": "cli.js"
   },
   "keywords": [
     "golang",
