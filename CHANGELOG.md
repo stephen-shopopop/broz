@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com///compare/v0.0.14...v0.0.15) (2022-03-26)
+
+
+### Bug Fixes
+
+* fix npm ignore ([f6a780c](https://github.com///commit/f6a780c42a09dd6a0c47e522fbc0dc1e04aa2e9a))
+* npmignore ([674f48a](https://github.com///commit/674f48ac5b709fbade26b87f6455a23b032ff8d8))
+
 ### [0.0.14](https://github.com///compare/v0.0.13...v0.0.14) (2022-03-26)
 
 ### [0.0.13](https://github.com///compare/v0.0.12...v0.0.13) (2022-03-26)
