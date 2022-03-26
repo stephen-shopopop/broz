@@ -12,6 +12,7 @@ a simple, frameless browser for screenshots
 It uses Cocoa/WebKit on macOS, gtk-webkit2 on Linux.
 
 Inspire by [antfu broz](https://github.com/antfu/broz)
+
 ## Usage
 
 ### Install
@@ -22,6 +23,12 @@ Add .npmrc file in your env $HOME
 
 ```
 npx @stephen-shopopop/broz --url https://antfu.me
+
+OR 
+
+npm install -g  @stephen-shopopop/broz 
+// launch
+broz --url https://antfu.me
 ```
 
 ```
