@@ -14,5 +14,4 @@ go.sum
 main.go
 vendor/
 assets/
-.vscode/
 .github/
