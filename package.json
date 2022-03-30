@@ -1,7 +1,7 @@
 {
   "name": "@stephen-shopopop/broz",
   "version": "0.0.24",
-  "description": "Webview",
+  "description": "Broz simple browser",
   "engines": {
     "go": "1.16"
   },
