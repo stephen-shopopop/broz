@@ -39,7 +39,7 @@ broz [options]
   --url string
         instead of serving files, load this url
   --title string
-        title of the webview window (default "webview")
+        title of the webview window (default "broz")
   --width int
         width of the webview window (default 800)
   --height int
