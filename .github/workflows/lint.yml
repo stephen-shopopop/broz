@@ -4,12 +4,12 @@ on:
     branches:
       - main
     paths:
-      - '**.ts'
+      - '**.js'
       - 'package-lock.json'
       - '.github/workflows/lint.yml'
   pull_request:
     paths:
-      - '**.ts'
+      - '**.js'
       - 'package-lock.json'
       - '.github/workflows/lint.yml'
 
